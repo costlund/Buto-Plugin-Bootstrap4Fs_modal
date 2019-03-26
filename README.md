@@ -5,7 +5,7 @@ Make Bootstrap 4 modals more mobile friendly.
 
 ## Widget
 
-Include in head section after Bootstrap css.
+Include in head section after Bootstrap css. Also an extra style.css is included form some minor fixes.
 ```
 type: widget
 data:
