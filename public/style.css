@@ -1,4 +1,8 @@
 @media (max-width: 767px) {
   .btn{background-image: none}
-  .btn:hover{background-image: none !important}  
+  .btn:hover{background-image: none !important}
+  .modal.modal-fullscreen .modal-dialog .modal-content .modal-header .close, .bootstrap-fs-modal .modal .modal-dialog .modal-content .modal-header .close {
+    margin-right: 0px;
+    min-width: 50px;
+  }
 }
