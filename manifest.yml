@@ -1,5 +1,9 @@
-version: 1.2.0
+version: 1.3.0
 history:
+  1.3.0:
+    date: '2021-05-01'
+    title: 'Include'
+    description: 'Include css files using time param using plugin js/include.'
   1.2.0:
     date: '2021-05-01'
     title: 'Mobile button'
@@ -10,7 +14,13 @@ history:
   1.0.0:
     date: '2019-03-24'
     description: 'Manifest created.'
-plugin: {  }
+plugin:
+  -
+    name: wf/yml
+    version: 1.3.0
+  -
+    name: include/js
+    version: 1.2.0
 sys:
   -
     name: mercury
@@ -18,7 +28,7 @@ sys:
       - '1.0'
 php:
   - '7.2'
-author: Claes Östlund
+author: 'Claes Östlund'
 links:
   Github: 'https://github.com/keaukraine/bootstrap4-fs-modal'
 description: ''

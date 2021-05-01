@@ -1,0 +1,9 @@
+-
+  type: widget
+  data:
+    plugin: 'include/js'
+    method: include
+    data:
+      src:
+        - '/plugin/bootstrap4/fs_modal/dist/css/bootstrap-fs-modal.css'
+        - '/plugin/bootstrap4/fs_modal/style.css'
