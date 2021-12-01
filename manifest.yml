@@ -1,5 +1,9 @@
-version: 1.3.0
+version: 1.4.0
 history:
+  1.4.0:
+    date: '2021-12-01'
+    title: 'Close button'
+    description: 'Remove close border (arrow).'
   1.3.0:
     date: '2021-05-01'
     title: 'Include'

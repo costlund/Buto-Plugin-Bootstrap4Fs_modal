@@ -3,6 +3,10 @@
   .btn:hover{background-image: none !important}
   .modal.modal-fullscreen .modal-dialog .modal-content .modal-header .close, .bootstrap-fs-modal .modal .modal-dialog .modal-content .modal-header .close {
     margin-right: 0px;
-    min-width: 50px;
+    min-width: 40px;
+  }
+  .modal.modal-fullscreen .modal-dialog .modal-content .modal-header .close:before, .bootstrap-fs-modal .modal .modal-dialog .modal-content .modal-header .close:before {
+    border: none;
+    display: inline;
   }
 }
