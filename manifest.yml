@@ -1,12 +1,16 @@
-version: 1.4.0
+version: 1.4.1
 history:
+  1.4.1:
+    date: '2022-06-07'
+    title: Versions
+    description: 'Versions update.'
   1.4.0:
     date: '2021-12-01'
     title: 'Close button'
     description: 'Remove close border (arrow).'
   1.3.0:
     date: '2021-05-01'
-    title: 'Include'
+    title: Include
     description: 'Include css files using time param using plugin js/include.'
   1.2.0:
     date: '2021-05-01'
@@ -21,7 +25,7 @@ history:
 plugin:
   -
     name: wf/yml
-    version: 1.3.0
+    version: 1.4.0
   -
     name: include/js
     version: 1.2.0
